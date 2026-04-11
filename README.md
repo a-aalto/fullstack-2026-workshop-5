@@ -8,3 +8,5 @@ In this workshop, the goal was to make a REST API routes for various CRUD operat
 - DELETE (/:id): delete a post by id
 
 For testing the API routes, I used Postman (VS Code extension).
+
+Among the other things I learned in this workshop building the API routes, I also learned basic Mongoose operations and also schema validation.
