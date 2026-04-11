@@ -23,9 +23,7 @@ async function connectToDatabase() {
 
   } catch (error) {
     console.error(`Connection failed:`, error.message);
-  } finally {
-    await mongoose.disconnect();
-    console.log("Connection closed.");
+    process.exit(1); // stop the server
   }
 }
 
